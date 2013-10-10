@@ -356,7 +356,7 @@ Terminal.colors = (function() {
 })();
 
 // Default BG/FG
-Terminal.colors[256] = '#000000';
+Terminal.colors[256] = '#300a24';
 Terminal.colors[257] = '#f0f0f0';
 
 Terminal._colors = Terminal.colors.slice();
