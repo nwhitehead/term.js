@@ -1114,6 +1114,7 @@ Terminal.prototype.bindMouse = function() {
     return cancel(ev);
   });
 
+/*
   // allow mousewheel scrolling in
   // the shell for example
   on(el, wheelEvent, function(ev) {
@@ -1126,6 +1127,7 @@ Terminal.prototype.bindMouse = function() {
     }
     return cancel(ev);
   });
+*/
 };
 
 /**
